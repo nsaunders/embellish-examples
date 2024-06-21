@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@embellish/react':
-        specifier: ^0.4.1
-        version: 0.4.1(@types/react@18.3.3)(react@18.3.1)
+        specifier: ~0.5.0
+        version: 0.5.0(@types/react@18.3.3)(react@18.3.1)
       '@fontsource-variable/roboto-flex':
         specifier: ^5.0.13
         version: 5.0.15
@@ -142,8 +142,8 @@ packages:
     resolution: {integrity: sha512-XEFXSlxiG5td2EJRe8vOmRbaXVgfcBlszKujvVmWIK/UpywWljQCfzAv3RQCGujWQ1RD4YYWEAqDXfuJiy8f5Q==}
     engines: {node: '>=6.9.0'}
 
-  '@embellish/react@0.4.1':
-    resolution: {integrity: sha512-SI0iV8++bNyaF1BcqJVItXqKkDDqQghQWgpxwCCcSgGhPNkRJtcPCHGix93FjkYWwA7VdCfO6cJZt0BBno8n3g==}
+  '@embellish/react@0.5.0':
+    resolution: {integrity: sha512-38oWUSzw/tGhuMnPoNwzh/KTn3DErgx4gZmczhO92tm4L7/R9K5o+O2sTruwI8deUjnwYaa1r/wkCX9vKN9eDQ==}
     peerDependencies:
       '@types/react': '>=17 <20'
       react: '>=17 <20'
@@ -751,7 +751,7 @@ snapshots:
       '@babel/helper-validator-identifier': 7.24.7
       to-fast-properties: 2.0.0
 
-  '@embellish/react@0.4.1(@types/react@18.3.3)(react@18.3.1)':
+  '@embellish/react@0.5.0(@types/react@18.3.3)(react@18.3.1)':
     dependencies:
       '@types/react': 18.3.3
       react: 18.3.1

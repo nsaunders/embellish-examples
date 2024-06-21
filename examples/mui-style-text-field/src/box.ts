@@ -15,23 +15,23 @@ const conditions = createConditions(hooks, {
   groupPlaceholderShown: ".group:has(:placeholder-shown) &",
 });
 
-const styleProps = createStyleProps([
-  "border",
-  "borderRadius",
-  "display",
-  "fontSize",
-  "gridColumn",
-  "gridRow",
-  "margin",
-  "marginTop",
-  "padding",
-  "paddingInline",
-  "transform",
-  "transition",
-  "visibility",
-  "whiteSpace",
-  "width",
-]);
+const styleProps = createStyleProps({
+  border: true,
+  borderRadius: true,
+  display: true,
+  fontSize: true,
+  gridColumn: true,
+  gridRow: true,
+  margin: true,
+  marginTop: true,
+  padding: true,
+  paddingInline: true,
+  transform: true,
+  transition: true,
+  visibility: true,
+  whiteSpace: true,
+  width: true,
+});
 
 const Box = createComponent({
   displayName: "Box",
